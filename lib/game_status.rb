@@ -63,6 +63,7 @@ def over?(board)
 end      
 
 def winner?(board)
-  if over?(board)|| won?(board)
+  if  won?(board)
+    
     
 end
